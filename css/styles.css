@@ -1,0 +1,33 @@
+.body {
+  font-family: "Work Sans", sans-serif;
+}
+
+#title {
+
+}
+
+#sites {
+  background-color: #f5cb5c;
+
+}
+
+.site-buttons {
+  padding: 7% 15%;
+}
+
+.site-button {
+  display: inline-block;
+  margin: 0 10px 20px;
+}
+
+
+/*
+PALETTE: https://coolors.co/cfdbd5-e8eddf-f5cb5c-242423-333533
+
+Timberwolf:      #cfdbd5
+Alabaster:       #e8eddf
+Maize Crayola:   #f5cb5c
+Eerie Black:     #242423
+Jet:             #333533
+
+*/
