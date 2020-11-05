@@ -1,0 +1,163 @@
+/*
+
+COLORES:
+
+#bfacce - lila claro
+#a792b8 - lila oscuro
+#87a0bc - azul claro
+#57779a - azul oscuro
+#f4f4f4 - gris background
+#f0a500 - amarillo claro
+#cf7500 - amarillo oscuro
+#1a1c20 - gris  muy oscuro
+
+*/
+
+div {
+
+}
+
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  font-family: 'Pacifico', cursive;
+  font-size: 5.625em;
+  color: #57779a;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5em;
+  color: #a792b8;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #bfacce;
+}
+
+a {
+  color: #bfacce;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  width: 3%;
+  color: #87a0bc;
+}
+
+.top-container {
+  background-color: #f4f4f4;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+ background-color: #f0a500;
+ margin-bottom: 0;
+ margin-top: 100px;
+ padding: 50px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 500;
+ line-height: 4;
+ color: #1a1c20;
+}
+
+.footer-link {
+  color: #1a1c20;
+  text-decoration: none;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.mountain-sprite {
+  height: 550px;
+}
+
+.cloud-sprite {
+  height: 175px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 600px;
+  top: 550px;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 50px;
+}
+
+.photo-img {
+  width: 25%;
+  float: right;
+  margin-left: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+}
+
+.profile-picture {
+  width: 25%;
+}
+
+.contact-me {
+  margin-top: 100px;
+}
+
+.contact-button {
+  margin: 30px;
+  border-radius: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  padding: 20px 30px;
+  background-color: #bfacce;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-button:hover {
+  background: #a792b8;
+}
