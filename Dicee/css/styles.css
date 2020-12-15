@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.content {
+  background-color: #9f5f80;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background-img {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.title {
+  font-family: 'Texturina', serif;
+  color: #ff8e71;
+}
+
+h1 {
+  font-size: 4em;
+  line-height: 2;
+}
+
+.toss-btn {
+  background-color: #583d72;
+  color: #9f5f80;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.header {
+
+  height: 30%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.game {
+  height: 50%;
+}
+
+.footer {
+  height: 20%;
+}
+
+.result {
+  margin-top: 1%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  font-family: 'Texturina', serif;
+  color: #ff8e71;
+}
+
+@keyframes resultAnimationLose {
+  from {width: 0px;}
+  to {width: 150px;}
+}
+
+.resultImgAnimationLose{
+  width: 150px;
+  animation: resultAnimationLose;
+  animation-duration: 1s;
+}
+
+@keyframes resultAnimationTie {
+  from {width: 0px;}
+  to {width: 600px;}
+}
+
+.resultImgAnimationTie{
+  width: 600px;
+  animation: resultAnimationTie;
+  animation-duration: 1s;
+}
+
+.text-over-image {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  bottom: 20px;
+  z-index: 5;
+}
+
+.player {
+  font-family: 'Hammersmith One', sans-serif;
+  text-align: center;
+  padding-top: 2em;
+}
+
+.dice {
+  width: 150px;
+  padding-top: 2em;
+}
+
+
+
+
+/*
+PALETTE: https://colorhunt.co/palette/226693
+
+#583d72
+#9f5f80
+#ffba93
+#ff8e71
+
+*/
