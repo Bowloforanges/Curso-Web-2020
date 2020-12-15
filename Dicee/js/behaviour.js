@@ -1,7 +1,9 @@
 function resetGameStyles() {
 
   demon.pause();
+  demon.load();
   seraphim.pause();
+  seraphim.load();
 
   document.getElementById("resultText").innerHTML = '...';
   document.getElementById("player1Dice").src = 'img/dice-1.png';

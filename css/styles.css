@@ -11,12 +11,17 @@
 
 }
 
+.content-centered {
+  text-align: center;
+}
+
 .site-buttons {
+  text-align: center;
   padding: 7% 15%;
 }
 
 .site-button {
-  display: inline-block;
+  /*display: inline-block;*/
   margin: 0 10px 20px;
 }
 
