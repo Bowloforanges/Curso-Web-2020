@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-color: #b2dbbf;
+}
+
+#level-title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
+  margin:  7%;
+  color: #247ba0;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.game-over {
+  background-color: #ff1654;
+  opacity: 0.7;
+}
+
+.red {
+
+}
+
+.green {
+
+}
+
+.blue {
+
+}
+
+.yellow {
+
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+/*
+PALETTE:
+
+#247ba0
+#70c1b3
+#b2dbbf
+#f3ffbd
+#ff1654
+
+*/
