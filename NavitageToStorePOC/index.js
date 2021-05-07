@@ -5,12 +5,15 @@ function navigateToStore(){
     const userAgent = navigator.userAgent;
 
     if((/Mobi|Android/i.test(userAgent))){
-        try{
-            window.location.href = 'st.android.imsspublico://IMSSDigital';
-        } catch (exception){
-            console.log(exception);
+
+        window.location.href = 'st.android.imsspublico://IMSSDigital';
+
+        setTimeout(function(){ 
+
             window.location.href = 'https://play.google.com/store/apps/details?id=st.android.imsspublico';
-        }
+            
+        }, 2000);
+    
     } else if(/iPad|iPhone|iPod/i.test(userAgent)){
         //gob.mx.imss.digital
         //window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8';
