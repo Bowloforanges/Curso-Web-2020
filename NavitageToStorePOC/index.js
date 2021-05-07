@@ -6,7 +6,7 @@ function navigateToStore(){
 
     if((/Mobi|Android/i.test(userAgent))){
         //window.location.href = 'https://play.google.com/store/apps/details?id=st.android.imsspublico';
-        window.location.href = 'st.android.imsspublico://IMSSDigital/Home';
+        window.location.href = 'st.android.imsspublico/IMSSDigital';
     } else if(/iPad|iPhone|iPod/i.test(userAgent)){
         window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8';
     } else {
