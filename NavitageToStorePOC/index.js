@@ -6,6 +6,8 @@ function navigateToStore(){
 
     if((/Mobi|Android/i.test(userAgent))){
 
+        alert("ANDROID DETECTADO: " + userAgent);
+
         window.location.href = 'st.android.imsspublico://IMSSDigital'; //deeplink
 
         setTimeout(function(){ 
@@ -17,6 +19,8 @@ function navigateToStore(){
     } else if(/iPad|iPhone|iPod/i.test(userAgent)){
         //window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8';
         //window.location.href = 'gob.mx.imss.digital://IMSSDigital';
+
+        alert("iOS DETECTADO: " + userAgent);
 
         window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'; //deeplink (inexistente)
 
