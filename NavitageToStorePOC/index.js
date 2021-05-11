@@ -4,9 +4,9 @@ function navigateToStore(){
 
     const userAgent = navigator.userAgent;
 
-    if((/Mobi|Android/i.test(userAgent))){
+    alert("User Agent: " + userAgent);
 
-        alert("ANDROID DETECTADO: " + userAgent);
+    /*if((/Mobi|Android/i.test(userAgent))){
 
         window.location.href = 'st.android.imsspublico://IMSSDigital'; //deeplink
 
@@ -20,8 +20,6 @@ function navigateToStore(){
         //window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8';
         //window.location.href = 'gob.mx.imss.digital://IMSSDigital';
 
-        alert("iOS DETECTADO: " + userAgent);
-
         window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'; //deeplink (inexistente)
 
         setTimeout(function(){ 
@@ -33,7 +31,7 @@ function navigateToStore(){
 
     } else {
         alert("Por favor abra esta página en un dispositivo móvil para descargar la aplicación IMSS Digital.");
-    }
+    }*/
 
 }
 
