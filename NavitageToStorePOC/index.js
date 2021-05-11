@@ -4,9 +4,7 @@ function navigateToStore(){
 
     const userAgent = navigator.userAgent;
 
-    alert("User Agent: " + userAgent);
-
-    /*if((/Mobi|Android/i.test(userAgent))){
+    if((/Mobi|Android/i.test(userAgent))){
 
         window.location.href = 'st.android.imsspublico://IMSSDigital'; //deeplink
 
@@ -31,7 +29,7 @@ function navigateToStore(){
 
     } else {
         alert("Por favor abra esta página en un dispositivo móvil para descargar la aplicación IMSS Digital.");
-    }*/
-
+    }
+    
 }
 
