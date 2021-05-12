@@ -4,10 +4,17 @@ function navigateToStore() {
 
     if ((/Mobi|Android/i.test(userAgent))) {
         device = "android";
+        if (document.readyState === 'complete') {
+            window.close();
+        }
     }
     if (/iPad|iPhone|iPod/i.test(userAgent)) {
         device = "ios";
+        if (document.readyState === 'complete') {
+            window.close();
+        }
     }
+
     switch (device) {
 
         case 'android':
@@ -21,6 +28,8 @@ function navigateToStore() {
             break;
         default:
             alert("Por favor abra esta página en un dispositivo móvil para descargar la aplicación IMSS Digital.");
+            if (document.readyState === 'complete') {
+                window.close();
+            }
     }
-
 }
