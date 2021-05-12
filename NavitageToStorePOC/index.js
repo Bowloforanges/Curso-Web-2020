@@ -18,15 +18,13 @@ function navigateToStore() {
             }, 2000);
             break;
         case 'ios':
-            window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8';
+            window.location.replace("imss-digital://"); //deeplink
             setTimeout(function () {
-                window.close();
+                window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'; //appstore link
             }, 2000);
             break;
         default:
             alert("Por favor abra esta página en un dispositivo móvil para descargar la aplicación IMSS Digital.");
-            setTimeout(function () {
-                window.close();
-            }, 2000);
+            window.close();
     }
 }
