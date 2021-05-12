@@ -1,3 +1,5 @@
+//https://app.urlgeni.us/?
+//https://urlgeni.us/IMSSDigital
 function navigateToStore() {
     const userAgent = navigator.userAgent;
     var device = "";
@@ -18,7 +20,7 @@ function navigateToStore() {
             }, 2000);
             break;
         case 'ios':
-            window.location.replace("imss-digital://"); //deeplink
+            window.location.replace("IMSS Digital://"); //deeplink
             setTimeout(function () {
                 window.location.href = 'https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'; //appstore link
             }, 2000);
