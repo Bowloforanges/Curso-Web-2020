@@ -20,8 +20,7 @@ function navigateToStore() {
             }, 1000);
             break;
         case 'ios':
-            //window.location.replace('gob.mx.imss.digital://'); //deeplink
-
+            window.location.replace('gob.mx.imss.digital://'); //deeplink
             setTimeout(function () {
                 window.location.replace('https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'); //appstore link
             }, 1000);
