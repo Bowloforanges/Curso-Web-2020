@@ -21,9 +21,10 @@ function navigateToStore() {
             break;
         case 'ios':
             window.location.replace('gob.mx.imss.digital://'); //deeplink
+
             setTimeout(function () {
                 window.location.replace('https://itunes.apple.com/us/app/imss-digital/id975273006?mt=8'); //appstore link
-            }, 1000);
+            }, 10000);
             break;
         default:
             alert("Por favor abra esta página en un dispositivo móvil para descargar la aplicación IMSS Digital.");
